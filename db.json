@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "bhumi",
+      "email": "typicode",
+      "password": "123456",
+      "mobile": "9638045899"
+    },
+    {
+      "id": 2,
+      "name": "bhumi",
+      "email": "typicode",
+      "password": "123456",
+      "mobile": "9638045899"
+    },
+    {
+      "id": 3,
+      "name": "bhumi",
+      "email": "typicode",
+      "password": "123456",
+      "mobile": "9638045899"
+    },
+    {
+      "id": 4,
+      "name": "bhumi",
+      "email": "typicode",
+      "password": "123456",
+      "mobile": "9638045899"
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "productname": "onion",
+      "price": 250,
+      "image": "1.jpg",
+      "size": "description"
+    },
+    {
+      "id": 3,
+      "productname": "cheese",
+      "price": 236,
+      "image": "1.jpg",
+      "size": "description"
+    },
+    {
+      "id": 4,
+      "productname": "onion",
+      "price": 250,
+      "image": "1.jpg",
+      "size": "description"
+    }
+  ] , 
+  "reviews": [
+    {
+      "id": 1,
+      "remark": "nice data",
+      "userid": 1
+     
+    },
+    {
+      "id": 2,
+      "remark": "nice data",
+      "userid": 1
+    },
+    {
+      "id": 3,
+      "remark": "nice data",
+      "userid": 1
+    }
+  ]
+}
