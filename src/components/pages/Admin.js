@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import {Form,Button} from 'react-bootstrap'
+import Api from '../../API/Api'
 export default function Admin() {
     const[email,setemail] = useState('')
     const[password,setpassword] = useState('')
@@ -13,6 +14,11 @@ export default function Admin() {
    {
        event.preventDefault();
        console.log(email  + password)
+       
+       Api.fetchData('admin').then((data)=>{
+         console.log("data fetch in admin js " + JSON.stringify(data))
+       })
+
 
    }
 
